@@ -1,5 +1,16 @@
 package university.exam;
 
+import university.exam.decorator.ForeheadWrinklingDecorator;
+import university.exam.decorator.InfraredVisionDecorator;
+import university.exam.decorator.TelepathyDecorator;
+import university.exam.handler.GrinderPileHandler;
+import university.exam.handler.KalitkoPileHandler;
+import university.exam.handler.SolutionHandler;
+import university.exam.handler.TricksterPileHandler;
+import university.exam.student.ConcreteStudent;
+import university.exam.student.StudentComponent;
+import university.exam.student.StudentType;
+
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
 import java.util.List;

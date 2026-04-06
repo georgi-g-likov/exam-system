@@ -1,6 +1,8 @@
 package university.exam;
 
-import java.util.List;
+import university.exam.student.StudentComponent;
+import university.exam.task.Task;
+import university.exam.task.TaskFactory;
 
 /**
  * Singleton – единственият университет, в който се провежда контролното.
